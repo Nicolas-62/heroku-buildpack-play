@@ -65,7 +65,7 @@ testNewAppGetsSystemPropertiesFile() {
 
 testSystemPropertiesInCacheDirGetsCopied() {
   newPlayApp "${BUILD_DIR}"
-  echo "java.runtime.version=1.6" > ${CACHE_DIR}/system.properties
+  echo "java.runtime.version=1.8" > ${CACHE_DIR}/system.properties
   compile
   assertCapturedSuccess
   assertCaptured "Installing OpenJDK"
