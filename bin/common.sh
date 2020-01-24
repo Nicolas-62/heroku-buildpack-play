@@ -104,7 +104,7 @@ https://devcenter.heroku.com/articles/scala-support"
 install_play()
 {
   VER_TO_INSTALL=$1
-  PLAY_URL="https://drive.google.com/open?id=1guzGkYN0CGZTXiMIv1W-7mStQ9cQn-y8"
+  PLAY_URL="https://doc-0s-bo-docs.googleusercontent.com/docs/securesc/3tjbbi9ibalrpc8g6vb3h4rsild80306/tp8glrlqmboomdelsbapj9dd0jc44eq2/1579852800000/17354854380502539195/17354854380502539195/1guzGkYN0CGZTXiMIv1W-7mStQ9cQn-y8?e=download&authuser=0&nonce=6o5fg5rn05ejm&user=17354854380502539195&hash=e29qgk6knq1a2kg8a3bhm81ni9pevgh3"
   PLAY_TAR_FILE="play-heroku.tar.gz"
 
   validate_play_version ${VER_TO_INSTALL}
